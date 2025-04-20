@@ -1,10 +1,12 @@
 import React from 'react';
 import './index.css';
+import Navbar from './components/Navbar' ;
 
 export const App = () => {
   return (
     <>
-      <div className='text-3xl text-center font-bold text-cyan-700'>ABC TEENS</div>
+      <Navbar/>
+      {/* <div className='text-3xl text-center font-bold text-cyan-700'>ABC TEENS</div> */}
     </>
   )
 }
